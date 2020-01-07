@@ -1,0 +1,154 @@
+body {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: #3a3a3a;
+}
+
+.page__header {
+    width: auto;
+    background: #222222;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px 10px;
+}
+
+.page-name {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden,
+input[type="range"].visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	-webkit-clip-path: inset(100%);
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.project {
+    display: flex;
+}
+
+.project__main-description {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.project__add-description {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.project__main-description a {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.project__main-description a:hover {
+    color: gold;
+}
+
+.project__start {
+    color: #3a3a3a;
+    background: gold;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid darkgoldenrod;
+}
+
+.project__start:hover {
+    background: #ffffff;
+}
+
+.project__image {
+    border: 5px solid gold;
+}
+
+.examples {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #222222;
+}
+
+.section__name {
+    text-align: center;
+    color: gold;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.examples__images {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.functionality { 
+    padding: 20px;
+}
+
+.functionality__list {
+    width: 900px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.functionality__list li {
+    padding: 5px 0;
+}
+
+.author {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #222222;
+}
+
+.author__wrapper {
+    display: flex;
+    margin: 40px;
+}
+
+.author__wrapper img {
+    border: 3px solid gold;
+    margin: 0;
+    padding: 0;
+}
+
+.author__description {
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.author__description a {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.author__description a:hover {
+    color: gold;
+}
